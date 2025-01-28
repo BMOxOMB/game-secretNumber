@@ -21,10 +21,10 @@
                     <h1></h1>
                     <p class="texto__parrafo"></p>
                 </div>
-                <input type="number" id="valorUsuario" min="1" max="10" class="container__input">
+                <input type="number" id="enteredValue" min="1" max="10" class="container__input">
                 <div class="chute container__botones">
-                    <button onclick="verificarIntento();" class="container__boton">Intentar</button>
-                    <button onclick="reiniciarJuego()" class="container__boton" id="reiniciar" disabled>Nuevo juego</button>
+                    <button onclick="verifyAttempt();" id="try" class="container__boton" disabled>Try</button>
+                    <button onclick="restartGame()" class="container__boton" id="restart" disabled>New game</button>
                 </div>
             </div>
             <img src="./img/ia.png" alt="Una persona mirando a la izquierda" class="container__imagen-persona" />
